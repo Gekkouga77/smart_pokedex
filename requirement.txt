@@ -1,0 +1,9 @@
+pandas
+plotly
+matplotlib
+streamlit
+tensorflow
+opencv-python
+pillow
+beautifulsoup4
+SQLAlchemy==1.4.0
