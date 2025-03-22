@@ -2,7 +2,6 @@
 
 The Smart Pokédex is a web application designed to classify and provide information about the first 151 Pokémon (Generation 1). It uses **TensorFlow** for image recognition, **SQLite** for data management, and **Streamlit** for a user-friendly interface. The project also includes a Convolutional Neural Network (CNN) trained on Pokémon images to classify them accurately.
 
----
 
 ## Features
 
@@ -11,7 +10,6 @@ The Smart Pokédex is a web application designed to classify and provide informa
 - **User-Friendly Interface**: Built with Streamlit for an intuitive and interactive experience.
 - **Database Management**: Uses SQLite to store and manage Pokémon data efficiently.
 
----
 
 ## Technologies Used
 
@@ -23,7 +21,6 @@ The Smart Pokédex is a web application designed to classify and provide informa
 - **Matplotlib**: For visualizing training results and data.
 - **OpenCV**: For image processing tasks.
 
----
 
 ## Installation
 
@@ -59,28 +56,27 @@ Start the Streamlit app by running:
 
     ```bash
     streamlit run Pokedex.py
----
+
 ## Usage
-Launch the Application:
+- **Launch the Application**:
 After running the Streamlit app, open the provided URL in your browser to access the Pokédex.
 
-View Pokémon Information:
+- **View Pokémon Information**:
 Browse through the database to view detailed information about all Pokémon.
 
-Classify Pokémon Images:
+- **Classify Pokémon Images**:
 Use the interface to upload an image of a Pokémon. The app will classify the image only if it belongs to one of the first 151 Pokémon. If the Pokémon is not in the first generation, the classifier will not recognize it.
----
+
 
 ## Limitations
-Image Classifier: The image classifier is trained only on the first 151 Pokémon (Generation 1). It will not recognize Pokémon from other generations.
-Dataset: Ensure the training and testing datasets are correctly placed in the PokemonData_train and PokemonData_test directories.
+- **Image Classifier**: The image classifier is trained only on the first 151 Pokémon (Generation 1). It will not recognize Pokémon from other generations.
+- **Dataset**: Ensure the training and testing datasets are correctly placed in the PokemonData_train and PokemonData_test directories.
 
----
 
 ## Future Improvements
-Expand the image classifier to include Pokémon from other generations.
-Add more advanced features, such as battle simulations or team-building tools.
-Improve the UI/UX with additional interactive elements.
+- Expand the image classifier to include Pokémon from other generations.
+- Add more advanced features, such as battle simulations or team-building tools.
+- Improve the UI/UX with additional interactive elements.
 
 
 
