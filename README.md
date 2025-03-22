@@ -1,6 +1,6 @@
 # Smart Pokédex: First Generation Pokémon Classifier
 
-The Smart Pokédex is a web application designed to classify and provide information about the first 151 Pokémon (Generation 1). It uses **TensorFlow** for image recognition, **SQLite** for data management, and **Streamlit** for a user-friendly interface. The project also includes a Convolutional Neural Network (CNN) trained on Pokémon images to classify them accurately.
+The Smart Pokédex is a web application designed to povide information of all the pokemon and classify the first 151 (Generation 1). It uses **TensorFlow** for image recognition, **SQLite** for data management, and **Streamlit** for a user-friendly interface. The project also includes a Convolutional Neural Network (CNN) trained on Pokémon images to classify them accurately.
 
 
 ## Features
